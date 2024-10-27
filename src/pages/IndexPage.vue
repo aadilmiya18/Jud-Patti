@@ -150,7 +150,7 @@ const rankHand = (cards) => {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.1);
+  /* background: rgba(255, 255, 255, 0.1); */
   border-radius: 10px;
   width: 30%;
 }
@@ -162,7 +162,6 @@ const rankHand = (cards) => {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   width: 30%;
 }
 
