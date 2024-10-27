@@ -88,7 +88,7 @@ const declareWinner = () => {
   }));
   playerHands.sort((a, b) => b.rank - a.rank);
   const bestHand = playerHands[0];
-  winner.value = `Player ${bestHand.id} wins with a rank of ${bestHand.rank}`;
+  winner.value = `Player ${bestHand.id} wins `;
 };
 
 const getCardValue = (value) => {
